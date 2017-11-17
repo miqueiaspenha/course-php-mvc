@@ -1,3 +1,5 @@
 <?php
 
-echo "teste";
+include_once "../vendor/autoload.php";
+
+$route = new \App\Route();

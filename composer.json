@@ -8,5 +8,11 @@
       "name": "Miqueias Penha",
       "email": "miqueiaspenha@gmail.com"
     }
-  ]
+  ],
+  "autoload" : {
+    "psr-4": {
+      "miqueias\\": "vendor/miqueias/",
+      "App\\": "App/"
+    }
+  }
 }
